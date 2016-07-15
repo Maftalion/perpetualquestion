@@ -10,6 +10,8 @@ console.log(__dirname);
 
 
 //We may need to set up routing base on our need
-
+app.get('/', function(req, res){
+  res.render('index');
+})
 
 app.listen(3000); 
